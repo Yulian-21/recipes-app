@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.home-page {
+  background: url('https://images.alphacoders.com/862/862638.jpg') no-repeat center center fixed;
+  background-size: cover;
+}

@@ -1,0 +1,134 @@
+.selected-recipes-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('https://images.alphacoders.com/862/862638.jpg');
+    color: #e0e0e0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .recipes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: 60vh;
+    padding: 20px;
+  }
+  
+  .recipe-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .recipe-thumbnail {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .recipe-content {
+    padding: 30px;
+    overflow-y: auto;
+    flex: 1;
+  }
+  
+  .recipe-content::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .recipe-content::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .recipe-content::-webkit-scrollbar-thumb {
+    background: #ff5722;
+    border-radius: 10px;
+  }
+  
+  .recipe-title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .ingredients h3,
+  .instructions h3 {
+    margin: 10px 0;
+  }
+  
+  .remove-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .remove-button:hover {
+    background-color: #e64a19;
+  }
+  
+  .aggregated-ingredients {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+    max-height: 400px;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .aggregated-ingredients h2 {
+    grid-column: span 3;
+    text-align: center;
+    color: #ff5722;
+  }
+  
+  .aggregated-ingredients ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .aggregated-ingredients li {
+    padding: 5px 0;
+  }
+  
+  .aggregated-ingredients::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .aggregated-ingredients::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .aggregated-ingredients::-webkit-scrollbar-thumb {
+    background: #ff5722;
+    border-radius: 10px;
+  }
+  
+  .aggregated-ingredients::-webkit-scrollbar-thumb:hover {
+    background: #e64a19;
+  }
+  
+  

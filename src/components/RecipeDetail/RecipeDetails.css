@@ -1,0 +1,92 @@
+.recipe-detail-page {
+    background-image: url('https://images.alphacoders.com/862/862638.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .recipe-title {
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .recipe-thumbnail {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    background-position: center;
+  }
+  
+  .recipe-info {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .recipe-info p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recipe-info li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .youtube-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .youtube-link .button {
+    background-color: #ffbb33;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .youtube-link .button:hover {
+    background-color: #e0a500;
+  }
+  .add-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .add-button:disabled {
+    background-color: #9e9e9e;
+    cursor: not-allowed;
+  }
+  
+  .add-button:hover:not(:disabled) {
+    background-color: #45a049;
+  }
+  
